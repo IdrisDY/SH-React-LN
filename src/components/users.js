@@ -8,7 +8,8 @@ const Users = ()=>{
 <>
     {value>0?<div> we have {value} users</div>:<div> No users</div>}
     
-    <button onClick={()=>setValue(value+1)}> Click here</button>
+    <button onClick={()=>setValue(value+1)
+    }> Click here</button>
     </>
    )
    
