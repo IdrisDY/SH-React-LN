@@ -1,11 +1,12 @@
 import {useState} from "react"
 const Statehook=()=>{
    const [Fullname, setName]=useState({fname:'',lname:''})
+   console.log(Fullname)
    const {fname,lname}= Fullname
    const handleChange=(e)=>{
       const{name,value}=e.target
       setName({[name]:value})
-      console.log({...Fullname})
+      // console.log({...Fullname})
    }
    return(
       <div>

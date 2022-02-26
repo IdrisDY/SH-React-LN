@@ -16,11 +16,12 @@ function App() {
   return (
     //<div className="App">
      //<Counter/>
-     // <Statehook/>
+
      // <Timer/>
       //<Fetch/>
     //  <Reducer/>
       <div>
+           <Statehook/>
       <Users/>
  <Width/>
  <Noob/>
@@ -29,7 +30,7 @@ function App() {
  </Props> 
  <Props name = "Adewale" no = "0803214567"/>
  <Props name = "Adekunle" no = "0903689002">
- <p>swimming in the balcony4107</p></Props>
+ <p>swimming in the balcony4107/8*9+</p></Props>
     </div>
   );
 }

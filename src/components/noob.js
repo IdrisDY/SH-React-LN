@@ -1,9 +1,18 @@
 
 import { useState } from "react"
 function Noob(){
- const [ time,setTime] = useState(0,2)
+  let x =1 
+  const Add =()=>{
+    x+=1
+   
+  }
+
+
+// example of using functions to initialise your state remember it can be fxn ,object or arrays ug?
+ const [ time,setTime] = useState(Add())
+ console.log(x)
  const tram =()=>{
-  setTime(time + 1)
+  setTime(x = x+ 1)
   console.log(time)
  }
  return(
